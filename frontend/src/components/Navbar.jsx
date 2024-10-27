@@ -21,7 +21,7 @@ const Navbar = () => {
       
       <Link to='/'><img src={assets.logo} className='w-36' alt="" /></Link>
 
-      <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
+      <ul className='hidden sm:flex gap-5 justify-center items-center text-sm text-gray-700'>
         
         <NavLink to='/' className='flex flex-col items-center gap-1'>
             <p>HOME</p>
@@ -39,6 +39,12 @@ const Navbar = () => {
             <p>CONTACT</p>
             <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
         </NavLink>
+        {/* <NavLink to='/contact' className='flex flex-col items-center gap-1'>
+            <p>Admin Panel</p>
+            <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
+        </NavLink> */}
+        <a href='https://zenora-admin.vercel.app/' target='_blank' className='flex flex-col items-center gap-1 rounded-full border border-zinc-400 px-3 py-1'>
+        <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />Admin Panel</a>
 
       </ul>
 
@@ -75,6 +81,7 @@ const Navbar = () => {
                     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/collection'>COLLECTION</NavLink>
                     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/about'>ABOUT</NavLink>
                     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/contact'>CONTACT</NavLink>
+                    <a href='https://zenora-admin.vercel.app/' target='_blank' className='py-2 pl-6 border'>Admin Panel</a>
                 </div>
         </div>
 
