@@ -17,7 +17,7 @@ const Hero = () => {
     <div className="flex flex-col sm:flex-row-reverse border border-gray-400 mb-10 sm:mb-20 sm:mt-2">
       {/* Hero Left Side */}
       <div className="w-full sm:w-1/2 flex items-center justify-center py-10 sm:py-0">
-        <div className="text-[#414141]">
+        <div className="text-[#414141] overflow-hidden">
         <motion.div
               // ref={ref}
               className="overflow-hidden"
