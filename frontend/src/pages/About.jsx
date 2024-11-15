@@ -2,6 +2,7 @@ import React from "react";
 import { assets } from "../assets/assets";
 import NewsletterBox from "../components/NewsletterBox";
 import Title from "../components/Title";
+import transition from "../transition";
 
 const About = () => {
   return (
@@ -74,4 +75,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default transition(About, "about") ;

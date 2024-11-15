@@ -2,6 +2,8 @@ import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../context/ShopContext';
 import axios from 'axios';
 import { toast } from 'react-toastify';
+import transition from '../transition';
+
 
 const Login = () => {
 
@@ -72,4 +74,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default transition(Login) 

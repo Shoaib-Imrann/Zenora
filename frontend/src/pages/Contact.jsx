@@ -2,6 +2,7 @@ import React from 'react'
 import { assets } from '../assets/assets'
 import NewsletterBox from '../components/NewsletterBox'
 import Title from '../components/Title'
+import transition from '../transition'
 
 const Contact = () => {
   return (
@@ -28,4 +29,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default transition(Contact, "Contact") 

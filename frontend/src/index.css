@@ -28,3 +28,59 @@ a.active hr{
         color: white;
     }
   }
+
+  /* .slide-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    transform-origin: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide-out {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    transform-origin: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay-content {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .transition-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.7rem;
+    color: white;
+    text-transform: uppercase;
+    z-index: 10;
+    pointer-events: none;
+  }
+  
+  .transition-icon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    pointer-events: none;
+  }
+   */

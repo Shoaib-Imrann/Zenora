@@ -4,6 +4,7 @@ import LatestCollection from '../components/LatestCollection'
 import BestSeller from '../components/BestSeller'
 import OurPolicy from '../components/OurPolicy'
 import NewsletterBox from '../components/NewsletterBox'
+import transition from '../transition'
 
 const Home = () => {
   return (
@@ -17,4 +18,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default transition(Home, "Home") 

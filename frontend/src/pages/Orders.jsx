@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import Title from '../components/Title';
 import axios from 'axios';
+import transition from '../transition';
 
 const Orders = () => {
 
@@ -78,4 +79,4 @@ const Orders = () => {
   )
 }
 
-export default Orders
+export default transition(Orders, "orders") 

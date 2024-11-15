@@ -3,6 +3,7 @@ import { ShopContext } from '../context/ShopContext'
 import Title from '../components/Title';
 import { assets } from '../assets/assets';
 import CartTotal from '../components/CartTotal';
+import transition from '../transition';
 
 const Cart = () => {
 
@@ -76,4 +77,4 @@ const Cart = () => {
   )
 }
 
-export default Cart
+export default transition(Cart) 
