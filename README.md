@@ -6,9 +6,9 @@ A fully-featured website built using the MERN stack `MongoDB` `Express.js` `Reac
 
 - **Dynamic Homepage**: Loads dynamically with different categories.
 - **Product Filters**: Filter products by price, category, & rating.
-- **Shopping Cart**: Add, update, & remove products.
-- **Secure Checkout**: Integrated with `Razorpay` & `Stripe`.
-- **User Authentication**: Secure login/registration using `JWT` & `bcrypt`.
+- **Shopping Cart**: Add, update, & remove products.🛒
+- **Secure Checkout**: Integrated with `Razorpay` & `Stripe`.🔐💳
+- **User Authentication**: Secure login/registration using `JWT` & `bcrypt`.🔐
 - **Admin Panel**: Manage products & orders, add/edit product images & details.
 - **Cloud Storage**: Images managed via `Cloudinary`.
 
@@ -21,7 +21,7 @@ A fully-featured website built using the MERN stack `MongoDB` `Express.js` `Reac
 - **Payments**:         `Razorpay` `Stripe`
 - **Image Hosting**:    `Cloudinary`
 
-## Installation
+## 🏗️ Installation
 
 ### 1. Clone the repository
 
