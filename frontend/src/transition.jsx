@@ -5,7 +5,7 @@ const transition = (OgComponent) => {
       <>
         <OgComponent />
         <motion.div
-          className='fixed top-0 left-0 w-full h-screen bg-black origin-right md:origin-top flex justify-center items-center z-50'
+          className='fixed top-0 left-0 w-full h-screen bg-black origin-top flex justify-center items-center z-50'
           initial={{ scaleY: 1 }}
           animate={{ scaleY: 0 }}
           exit={{ scaleY: 0 }}
@@ -16,7 +16,7 @@ const transition = (OgComponent) => {
           </div>
         </motion.div>
         <motion.div
-          className='fixed top-0 left-0 w-full h-screen bg-black origin-left md:origin-bottom flex justify-center items-center z-50'
+          className='fixed top-0 left-0 w-full h-screen bg-black origin-bottom flex justify-center items-center z-50'
           initial={{ scaleY: 0 }}
           animate={{ scaleY: 0 }}
           exit={{ scaleY: 1 }}

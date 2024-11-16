@@ -17,7 +17,7 @@ const Contact = () => {
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className='font-semibold text-xl text-gray-600'>Our Store</p>
           <p className=' text-gray-500'>17th main C Cross Rd<br /> 3rd Floor, Indiranagar, Bangalore, Karnataka, India – 560038</p>
-          <p className=' text-gray-500'>Tel: (+91) 1234567890 <br /> Email: admin@zenora.com</p>
+          <p className=' text-gray-500'>Tel: (+91) 00000 00000 <br /> Email: zenora@example.com</p>
           <p className='font-semibold text-xl text-gray-600'>Careers at Zenora</p>
           <p className=' text-gray-500'>Learn more about our teams and job openings.</p>
           <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Explore Jobs</button>

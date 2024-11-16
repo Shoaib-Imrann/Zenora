@@ -84,27 +84,25 @@ const Navbar = () => {
       </div>
 
         {/* Sidebar menu for small screens */}
-        <div className={`z-10 absolute top-0 right-0 bottom-0 overflow-hidden bg-white transition-all ${visible ? 'w-full' : 'w-0'}`}>
+        <div className={`z-10 fixed top-0 right-0 bottom-0 overflow-hidden bg-white transition-all ${visible ? 'w-full' : 'w-0'}`}>
+              <div className='flex flex-col justify-between h-screen'>
                 <div className='flex flex-col text-gray-600'>
                     <div onClick={()=>setVisible(false)} className='flex items-center gap-4 p-3 cursor-pointer'>
-                        <img className='h-4 rotate-180' src={assets.dropdown_icon} alt="" />
-                        <p>Back</p>
+                      <img className='h-4 rotate-180' src={assets.dropdown_icon} alt="" />
+                      <p>Back</p>
                     </div>
                     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/'>HOME</NavLink>
                     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/collection'>COLLECTION</NavLink>
                     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/about'>ABOUT</NavLink>
-                    <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/contact'>CONTACT</NavLink>
-                    <div className='flex gap-3 mt-3 ml-2'>
-                    <a href='https://zenora-admin.vercel.app/' target='_blank' className=' w-fit   px-3 py-2 border rounded-lg'>Admin Panel</a>
-                    <a
-              href="https://github.com/Shoaib-Imrann/Zenora"
-              target="_blank"
-              className="w-fit  px-3 py-2 border rounded-lg flex justify-center items-center"
-            >
-              <FaGithub />
-            </a>
-                    </div>
+                    <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/contact'>CONTACT</NavLink> 
                 </div>
+                <div className='flex gap-3 p-5 justify-end'>
+                  <a href='https://zenora-admin.vercel.app/' target='_blank' className=' w-fit   px-3 py-2 border rounded-lg'>Admin Panel</a>
+                  <a href="https://github.com/Shoaib-Imrann/Zenora" target="_blank" className="w-fit  px-3 py-2 border rounded-lg flex justify-center items-center">
+                    <FaGithub />
+                  </a>
+                </div>
+              </div>
         </div>
 
     </div>
