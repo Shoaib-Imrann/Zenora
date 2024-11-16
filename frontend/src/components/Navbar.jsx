@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import {assets} from '../assets/assets'
 import { Link, NavLink } from 'react-router-dom'
 import { ShopContext } from '../context/ShopContext';
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
 
@@ -43,8 +44,20 @@ const Navbar = () => {
             <p>Admin Panel</p>
             <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
         </NavLink> */}
-        <a href='https://zenora-admin.vercel.app/' target='_blank' className='flex flex-col items-center gap-1 rounded-full border border-zinc-400 px-3 py-1'>
+        <a href='https://zenora-admin.vercel.app/' target='_blank' className='flex flex-col items-center gap-1 rounded-lg border border-zinc-400 px-3 py-1'>
         <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />Admin Panel</a>
+        <div
+            className="flex justify-center items-center border-[1px] px-2 py-[7px] rounded-lg border-zinc-400 bg-transparent"
+          >
+            
+            <a
+              href="https://github.com/Shoaib-Imrann/Zenora"
+              target="_blank"
+              className=""
+            >
+              <FaGithub />
+            </a>
+          </div>
 
       </ul>
 
@@ -81,7 +94,16 @@ const Navbar = () => {
                     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/collection'>COLLECTION</NavLink>
                     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/about'>ABOUT</NavLink>
                     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/contact'>CONTACT</NavLink>
-                    <a href='https://zenora-admin.vercel.app/' target='_blank' className='py-2 pl-6 border'>Admin Panel</a>
+                    <div className='flex gap-3 mt-3 ml-2'>
+                    <a href='https://zenora-admin.vercel.app/' target='_blank' className=' w-fit   px-3 py-2 border rounded-lg'>Admin Panel</a>
+                    <a
+              href="https://github.com/Shoaib-Imrann/Zenora"
+              target="_blank"
+              className="w-fit  px-3 py-2 border rounded-lg flex justify-center items-center"
+            >
+              <FaGithub />
+            </a>
+                    </div>
                 </div>
         </div>
 

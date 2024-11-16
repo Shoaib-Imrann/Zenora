@@ -2,6 +2,7 @@ import axios from 'axios'
 import React, { useState } from 'react'
 import { backendUrl } from '../App'
 import { toast } from 'react-toastify'
+import { FaGithub } from "react-icons/fa";
 
 const Login = ({setToken}) => {
 
@@ -27,7 +28,16 @@ const Login = ({setToken}) => {
   return (
     <div className='min-h-screen flex items-center justify-center w-full'>
         <div className='bg-white shadow-md rounded-lg px-8 py-6 max-w-md'>
-            <h1 className='text-2xl font-bold mb-4 flex justify-center'>Admin Panel</h1>
+            <div className='flex justify-between'>
+            <h1 className='text-2xl font-bold mb-4 flex justify-center '>Admin Panel</h1>
+            <a
+              href="https://github.com/Shoaib-Imrann/Zenora"
+              target="_blank"
+              className="px-2 h-fit py-2 border rounded-lg flex justify-center items-center"
+            >
+              <FaGithub />
+            </a>
+            </div>
             <form onSubmit={onSubmitHandler}>
                 <div className='mb-3 min-w-72'>
                     <p className='text-sm font-medium text-gray-700 mb-2'>Email Address</p>
