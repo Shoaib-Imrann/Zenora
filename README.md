@@ -79,3 +79,13 @@ cd backend
 npm run dev
 ```
 
+### Admin Panel Access
+
+Email
+```bash
+admin@zenora.com
+```
+Password
+```bash
+zenora123
+```
