@@ -75,7 +75,7 @@ npm run server
 
 `Frontend`
 ```bash
-cd backend
+cd frontend
 npm run dev
 ```
 
