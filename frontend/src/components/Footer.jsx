@@ -35,7 +35,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="mt-5 text-gray-600 flex justify-center items-center">
-            <a target="_blank" href="https://shoaibimran.com">Website by - <span className="underline text-black">shoaibimran.com</span></a><HiMiniArrowUpRight className="text-black ml-[2px] md:hidden"/>
+            <a target="_blank" href="https://www.shoaibimran.com">Website by - <span className="underline text-black">shoaibimran.com</span></a><HiMiniArrowUpRight className="text-black ml-[2px] md:hidden"/>
           </div>
         </div>
       </div>
