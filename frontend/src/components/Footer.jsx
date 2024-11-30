@@ -1,5 +1,6 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import { HiMiniArrowUpRight } from "react-icons/hi2";
 
 const Footer = () => {
   return (
@@ -25,12 +26,17 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
-          <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
-          <ul className="flex flex-col gap-1 text-gray-600 items-center sm:items-start">
-            <li>+91 00000 00000</li>
-            <li>contact@zenora.com</li>
-          </ul>
+        <div className="flex flex-col justify-between h-full items-center">
+          <div>
+            <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
+            <ul className="flex flex-col gap-1 text-gray-600 items-center sm:items-start">
+              <li>+91 00000 00000</li>
+              <li>contact@zenora.com</li>
+            </ul>
+          </div>
+          <div className="mt-5 text-gray-600 flex justify-center items-center">
+            <a target="_blank" href="https://shoaibimran.com">Website by - <span className="underline text-black">shoaibimran.com</span></a><HiMiniArrowUpRight className="text-black ml-[2px] md:hidden"/>
+          </div>
         </div>
       </div>
 
