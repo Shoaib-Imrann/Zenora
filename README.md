@@ -14,7 +14,7 @@ A fully-featured website built using the MERN stack `MongoDB` `Express.js` `Reac
 
 ## Tech Stack
 
-- **Frontend**:         `React.js` `Tailwind CSS`
+- **Frontend**:         `React.js` `TailwindCSS`
 - **Backend**:          `Node.js` `Express.js`
 - **Database**:         `MongoDB`
 - **Authentication**:   `JWT` `bcrypt`
