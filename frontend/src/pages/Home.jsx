@@ -8,7 +8,7 @@ import transition from '../transition'
 
 const Home = () => {
   return (
-    <div>
+    <div className=''>
       <Hero />
       <LatestCollection/>
       <BestSeller/>

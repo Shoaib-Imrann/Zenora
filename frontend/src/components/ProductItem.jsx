@@ -8,7 +8,7 @@ const ProductItem = ({id,image,name,price}) => {
 
   return (
     <Link onClick={()=>scrollTo(0,0)} className='text-gray-700 cursor-pointer' to={`/product/${id}`}>
-      <div className=' overflow-hidden'>
+      <div className=' overflow-hidden rounded-lg'>
         <img className='hover:scale-110 transition ease-in-out' src={image[0]} alt="" />
       </div>
       <p className='pt-3 pb-1 text-sm'>{name}</p>
