@@ -15,7 +15,7 @@ const BestSeller = () => {
 
   return (
     <div className='my-12'>
-      <div className='text-center text-3xl py-10'>
+      <div className='text-center text-xl sm:text-3xl py-10'>
         <Title text1={'BEST'} text2={'SELLERS'}/>
         <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
         Fan favorites that redefine style and comfort.

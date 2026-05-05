@@ -10,9 +10,7 @@ const Footer = () => {
           <img src={assets.logo} className="mb-5 w-32" alt="" />
           <p className="w-full md:w-2/3 text-gray-600">
             At Zenora, we’re committed to offering a seamless shopping journey
-            with a wide range of products to suit every style and need. Since
-            our inception, we've set the standard for quality and convenience,
-            ensuring your satisfaction with every purchase.
+            with a wide range of products to suit every style and need.
           </p>
         </div>
 
@@ -31,11 +29,8 @@ const Footer = () => {
             <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
             <ul className="flex flex-col gap-1 text-gray-600 items-center sm:items-start">
               <li>+91 00000 00000</li>
-              <li>contact@zenora.com</li>
+              <li>contact@example.com</li>
             </ul>
-          </div>
-          <div className="mt-5 text-gray-600 flex justify-center items-center">
-            <a target="_blank" href="https://www.shoaibimran.com">Website by - <span className="underline text-black">shoaibimran.com</span></a><HiMiniArrowUpRight className="text-black ml-[2px] md:hidden"/>
           </div>
         </div>
       </div>
@@ -43,7 +38,7 @@ const Footer = () => {
       <div>
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright 2024@ zenora.com - All Right Reserved.
+          © 2024 zenora - All Rights Reserved.
         </p>
       </div>
     </div>

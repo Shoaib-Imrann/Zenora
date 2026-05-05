@@ -11,9 +11,9 @@ const About = () => {
         <Title text1={"ABOUT"} text2={"US"} />
       </div>
 
-      <div className="my-10 flex flex-col md:flex-row gap-16">
+      <div className="my-10 flex flex-col md:flex-row justify-center items-center gap-16">
         <img
-          className="w-full md:max-w-[450px]"
+          className="w-full md:max-w-[450px] rounded-lg"
           src={assets.about_img}
           alt=""
         />

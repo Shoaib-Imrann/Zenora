@@ -9,11 +9,15 @@
 
 select,input,textarea{
     border: 1px solid #c2c2c2;
-    outline-color: #C586A5;
+    outline-color: #6366f1;
     border-radius: 4px;
 }
 
+input[type="checkbox"]{
+    accent-color: #6366f1;
+}
+
 .active{
-    background-color: #ffebf5;
-    border-color: #C586A5;
+    background-color: #eef2ff;
+    border-color: #6366f1;
 }

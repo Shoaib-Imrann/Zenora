@@ -18,9 +18,9 @@ const Navbar = () => {
     }
 
   return (
-    <div className='flex items-center justify-between py-5 font-medium'>
+    <div className='flex items-center justify-between py-3 sm:py-5 font-medium'>
       
-      <Link to='/'><img src={assets.logo} className='w-[120px]' alt="" /></Link>
+      <Link to='/'><img src={assets.logo} className='w-[80px] sm:w-[120px]' alt="" /></Link>
 
       <ul className='hidden sm:flex gap-5 justify-center items-center text-sm text-gray-700'>
         
@@ -62,10 +62,10 @@ const Navbar = () => {
       </ul>
 
       <div className='flex items-center gap-6'>
-            <img onClick={()=> { setShowSearch(true); navigate('/collection') }} src={assets.search_icon} className='w-5 cursor-pointer' alt="" />
+            <img onClick={()=> { setShowSearch(true); navigate('/collection') }} src={assets.search_icon} className='w-4 sm:w-5 cursor-pointer' alt="" />
             
             <div className='group relative'>
-                <img onClick={()=> token ? null : navigate('/login') } className='w-5 cursor-pointer' src={assets.profile_icon} alt="" />
+                <img onClick={()=> token ? null : navigate('/login') } className='w-4 sm:w-5 cursor-pointer' src={assets.profile_icon} alt="" />
                 {/* Dropdown Menu */}
                 {token && 
                 <div className='group-hover:block hidden absolute dropdown-menu right-0 pt-4'>
@@ -77,10 +77,10 @@ const Navbar = () => {
                 </div>}
             </div> 
             <Link to='/cart' className='relative'>
-                <img src={assets.cart_icon} className='w-5 min-w-5' alt="" />
-                <p className='absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px]'>{getCartCount()}</p>
+                <img src={assets.cart_icon} className='w-4 sm:w-5 min-w-4 sm:min-w-5' alt="" />
+                <p className='absolute right-[-4px] bottom-[-4px] w-3 sm:w-4 text-center leading-3 sm:leading-4 bg-black text-white aspect-square rounded-full text-[7px] sm:text-[8px]'>{getCartCount()}</p>
             </Link> 
-            <img onClick={()=>setVisible(true)} src={assets.menu_icon} className='w-5 cursor-pointer sm:hidden' alt="" /> 
+            <img onClick={()=>setVisible(true)} src={assets.menu_icon} className='w-4 sm:w-5 cursor-pointer sm:hidden' alt="" /> 
       </div>
 
         {/* Sidebar menu for small screens */}
